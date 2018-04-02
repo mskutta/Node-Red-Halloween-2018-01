@@ -2,7 +2,11 @@
     "name": "Node-Red-Halloween-2018-01",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "mcp3008": "0.0.2",
+        "node-red-contrib-osc": "1.0.0",
+        "node-red-dashboard": "2.8.2"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
